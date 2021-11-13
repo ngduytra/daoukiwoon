@@ -1,0 +1,48 @@
+#card-container {
+    background: #fff;
+    padding: 43px 36px;
+    border-radius: 10px;
+    width: 264px;
+    height: 228px;
+    margin: 0 16px;
+    box-sizing: border-box;
+    
+    .title {
+        font-size: 22px;
+        font-weight: 700;
+        font-family: Roboto;
+        margin-bottom: 5px;
+    }
+
+    .subtitle {
+        font-size: 12px;
+        font-weight: 400;
+        color: #374754;
+    }
+
+    .price-container {
+        margin-top: 42px;
+        display: flex;
+        align-items: center;
+
+        .price {
+            font-size: 36px;
+            font-weight: 700;
+            margin-right: 10px;
+        }
+
+        .unit-wrapper {
+            .currency {
+                font-size: 22px;
+                font-weight: 700;
+                color: #252B42;
+            }
+
+            .packet {
+                font-size: 12px;
+                font-weight: 700;
+                color: #374754;
+            }
+        }
+    }
+}

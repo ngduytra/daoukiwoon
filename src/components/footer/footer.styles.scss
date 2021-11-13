@@ -1,0 +1,83 @@
+.footer {
+    border-top: 1px solid rgba(153, 153, 153, 0.46);
+    display: flex;
+    background: #F3F9FF;
+    min-width: 900px;
+    > div {
+        display: flex;
+        flex-direction: column;
+        padding-top: 33px;
+        padding-bottom: 50px;
+        box-sizing: border-box;
+    }
+
+    .left {
+        width: 35%;
+        margin-left: 120px;
+        padding-right: 27px;
+
+        > div {
+            font-size: 14px;
+            font-weight: 400;
+            color: #666666;
+            margin-bottom: 16px;
+
+            &.title {
+                font-family: Noto Sans;
+                font-size: 22px;
+                font-weight: 500;
+                margin-bottom: 21px;
+            }
+        }
+
+        .contact {
+            display: flex;
+
+            .phone { 
+                margin-right: 22px;
+            }
+        }
+    }
+
+    .center {
+        width: 30%;
+        border-left: 2px solid rgba(153, 153, 153, 0.46);
+        border-right: 2px solid rgba(153, 153, 153, 0.46);
+        padding-left: 41px;
+        padding-right: 27px;
+
+        > div {
+            font-size: 15px;
+            font-weight: 400;
+            color: #666666;
+            margin-bottom: 16px;
+
+            &.title {
+                font-family: Noto Sans;
+                font-size: 22px;
+                font-weight: 500;
+                margin-bottom: 21px;
+            }
+        }
+    }
+
+    .right {
+        width: 35%;
+        padding-left: 41px;
+        margin-right: 120px;
+
+        > div {
+            font-size: 15px;
+            font-weight: 400;
+            color: #666666;
+            margin-bottom: 16px;
+
+            &.title {
+                font-family: Noto Sans;
+                font-size: 22px;
+                font-weight: 500;
+                margin-bottom: 21px;
+            }
+        }
+    }
+}

@@ -1,0 +1,120 @@
+#index-1 {
+    .hero-container {
+        display: flex;
+        height: 80vh;
+
+        .left {
+            width: 35%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            margin: 82px;
+    
+            div {
+                font-size: 56px;
+                font-weight: 700;
+                color: #181949;
+            }
+            
+        }
+        .right {
+            width: 65%;
+            background-position: 50% 50%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+    
+            .top {
+                display: flex;
+                padding: 0 150px;
+                justify-content: flex-end;
+                align-items: center;
+                color: #CFE5FF;
+                height: 36px;
+                font-size: 14px;
+                font-weight: 400;
+                font-weight: Roboto;
+                background: #181949;
+    
+                div {
+                    margin: 0 41px;
+                    &:nth-child(1) {
+                        min-width: 32px;
+                    }
+                    &:nth-child(2) {
+                        min-width: 67px;
+                    }
+                    &:nth-child(3) {
+                        min-width: 131px;
+                    }
+                }
+            }
+    
+            .bottom {
+                flex: 1;
+    
+                .tab {
+                    display: flex;
+                    height: 30%;
+                    width: 100%;
+                    justify-content: center;
+                    align-items: flex-end;
+    
+                    div {
+                        padding: 16px 41px;
+                        font-size: 22px;
+                        font-weight: 600;
+                        color: rgba(255, 255, 255, .5);
+                        &.selected {
+                            color: #fff;
+                            border-bottom: 1.5px solid #CFE5FF;
+                        }
+                    }
+                }
+    
+                .detail {
+                    height: 70%;
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 50px;
+                    box-sizing: border-box;
+    
+                    .item-info {
+                        width: 140px;
+                        margin: 0 20px;
+                    
+                        .amount {
+                            color: #CFE5FF;
+                            font-size: 64px;
+                            font-weight: 700;
+                            text-align: center;
+                        }
+    
+                        .desc {
+                            color: #fff;
+                            font-size: 20px;
+                            font-weight: 400;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .reminder {
+        height: 20vh;
+        background: #FFD1E8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        font-weight: 400;
+
+        span {
+            font-weight: 700;
+        }
+    }
+}
